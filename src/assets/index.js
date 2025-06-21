@@ -31,6 +31,11 @@ import cryptovault1 from "./cryptovault1.jpg";
 import cryptovault2 from "./cryptovault2.jpg";
 import cryptovault3 from "./cryptovault3.jpg";
 
+import github1 from "./github1.png";
+import linkedin from "./linkedin.svg";
+import instagram from "./instagram.png";
+
+
 export {
   logo,
   backend,
@@ -62,4 +67,7 @@ export {
   cryptovault1,
   cryptovault2,
   cryptovault3,
+  github1,
+  linkedin,
+  instagram
 };
