@@ -120,7 +120,7 @@ const Works = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Below are some of the mobile applications I’ve built using Flutter. Each project showcases different skills in UI/UX, backend integration, and real-world problem solving.
+        Below are some of the applications and digital products I've developed, each crafted with attention to design, performance, and usability. These projects highlight my skills across UI/UX design, full-stack development, API integration, and solving real-world challenges through code.
       </motion.p>
 
       <div className="mt-20">
