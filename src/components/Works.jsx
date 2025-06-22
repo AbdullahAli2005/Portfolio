@@ -50,9 +50,19 @@ const ProjectSection = ({ project, index }) => {
       {/* Image Section with Tilt and Glow */}
       <div className="flex flex-col sm:flex-row gap-5 w-full md:w-1/2">
         {project.images.map((img, i) => (
-          <Tilt
+          // <Tilt
+          //   key={i}
+          //   options={{ max: 10, scale: 1.1, speed: 200 }} // Stronger tilt
+          //   className="rounded-xl bg-[#ffffff0a] p-1 shadow-[0_0_40px_rgba(255,255,255,0.15)] transition-all duration-300"
+          // >
+          //   <img
+          //     src={img}
+          //     alt={`${project.name}-screen-${i}`}
+          //     className="rounded-xl w-full sm:w-[180px] h-auto object-cover hover:scale-105 transition-transform"
+          //   />
+          // </Tilt>
+          <div
             key={i}
-            options={{ max: 35, scale: 1.1, speed: 500 }} // Stronger tilt
             className="rounded-xl bg-[#ffffff0a] p-1 shadow-[0_0_40px_rgba(255,255,255,0.15)] transition-all duration-300"
           >
             <img
@@ -60,7 +70,7 @@ const ProjectSection = ({ project, index }) => {
               alt={`${project.name}-screen-${i}`}
               className="rounded-xl w-full sm:w-[180px] h-auto object-cover hover:scale-105 transition-transform"
             />
-          </Tilt>
+          </div>
         ))}
       </div>
     </motion.div>
