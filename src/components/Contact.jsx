@@ -63,7 +63,7 @@ const Contact = () => {
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-[#0c0c2c] p-8 rounded-2xl" 
+        className="flex-[0.75] bg-[#0c0c2c] p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -111,11 +111,15 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="w-full flex justify-center sm:justify-start">
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+          </div>
+
         </form>
       </motion.div>
 
