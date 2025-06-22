@@ -19,12 +19,15 @@ import {
   vibeconnect1,
   vibeconnect2,
   vibeconnect3,
+  vibeconnect4,
   neurachat1,
   neurachat2,
   neurachat3,
+  neurachat4,
   cryptovault1,
   cryptovault2,
   cryptovault3,
+  cryptovault4,
 } from "../assets";
 
 
@@ -131,6 +134,7 @@ const projects = [
       { name: "cloudinary", color: "pink-text-gradient" },
     ],
     images: [vibeconnect1, vibeconnect2, vibeconnect3],
+    cover_image: [vibeconnect4],
     source_code_link: "https://github.com/AbdullahAli2005/VibeConnect.git",
   },
   {
@@ -143,6 +147,7 @@ const projects = [
       { name: "huggingface", color: "pink-text-gradient" },
     ],
     images: [neurachat1, neurachat2, neurachat3],
+    cover_image: [neurachat4],
     source_code_link: "https://github.com/AbdullahAli2005/NeuraChat.git",
   },
   {
@@ -155,6 +160,7 @@ const projects = [
       { name: "restapi", color: "pink-text-gradient" },
     ],
     images: [cryptovault1, cryptovault2, cryptovault3],
+    cover_image: [cryptovault4],
     source_code_link: "https://github.com/AbdullahAli2005/CryptoVault.git",
   },
 ];

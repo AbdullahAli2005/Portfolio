@@ -24,12 +24,15 @@ import supabase from "./tech/supabase.png";
 import vibeconnect1 from "./vibeconnect1.jpg";
 import vibeconnect2 from "./vibeconnect2.png";
 import vibeconnect3 from "./vibeconnect3.jpg";
+import vibeconnect4 from "./vibeconnect4.png";
 import neurachat1 from "./neurachat1.jpg";
 import neurachat2 from "./neurachat2.jpg";
 import neurachat3 from "./neurachat3.jpg";
+import neurachat4 from "./neurachat4.png";
 import cryptovault1 from "./cryptovault1.jpg";
 import cryptovault2 from "./cryptovault2.jpg";
 import cryptovault3 from "./cryptovault3.jpg";
+import cryptovault4 from "./cryptovault4.png";
 
 import github1 from "./github1.png";
 import linkedin from "./linkedin.svg";
@@ -61,12 +64,15 @@ export {
   vibeconnect1,
   vibeconnect2,
   vibeconnect3,
+  vibeconnect4,
   neurachat1,
   neurachat2,
   neurachat3,
+  neurachat4,
   cryptovault1,
   cryptovault2,
   cryptovault3,
+  cryptovault4,
   github1,
   linkedin,
   instagram

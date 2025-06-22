@@ -3,7 +3,7 @@ import { github, linkedin, instagram } from "../assets"; // make sure these icon
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#0d0d1a] py-6 mt-12 text-white border-t border-white/10">
+    <footer className="w-full bg-[#0b0b29] pt-6 pb-12 mt-12 text-white border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         
         <p className="text-center text-sm">
